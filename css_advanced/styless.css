@@ -1,0 +1,334 @@
+/* importing web fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Yeseva+One);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
+
+html {
+    width: 100%;
+    min-height: auto;
+}
+
+body {
+    /* width: 1440px;
+    height: 3718px; */
+    /* top: 0px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px; */
+    background-image: url("Object.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 1093px;
+    background-position: center;
+    font-family: "source Sans Pro";
+    color: white;
+}
+
+header {
+    width: 1103.41px;
+    height: 29.46px;
+    top: 35.02px;
+    left: 171.59px;
+    padding: 30px 60px 30px 100px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 60px;
+    background: hsba(0, 0%, 100%, 1);
+    margin-left: 800px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* Remove underline */
+    color: white;
+    /* Text color */
+    font-size: 12px;
+    /* Font size */
+    padding: 5px 10px;
+    /* Add padding for clickable area */
+    transition: background-color 0.3s;
+    /* Smooth hover effect */
+    font-weight: 700;
+    line-height: 15.08px;
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    background-color: #555;
+    /* Change background color on hover */
+    border-radius: 5px;
+    /* Optional rounded corners */
+}
+
+/*Get schooled*/
+.homepage h1 {
+    font-family: Source Sans Pro;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 150.84px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 80px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.homepage ul {
+    list-style: none;
+    font-family: Source Sans Pro;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.11px;
+    margin-left: 600px;
+    margin-top: -100px;
+    margin-bottom: 60px;
+    gap: 45px;
+}
+
+.homepage p {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 80px;
+
+}
+
+.homepage button {
+    font-family: Source Sans Pro;
+    font-size: 13px;
+    width: 200px;
+    height: 44px;
+    background-color: #c271ff;
+    border: none;
+    border-radius: 22px;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0px 2px 20px 0px hsba("0, 0%, 0%, 0.5");
+    margin-left: 700px;
+    margin-top: 0px;
+}
+
+.pros h2 {
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.22px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-left: 150px;
+    margin-top: 80px;
+
+}
+
+.learn {
+    font-family: Source Sans Pro;
+    color: blueviolet;
+}
+
+.pro-tutor {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 237px;
+    margin-top: -100px;
+    left: 217px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.pro-tutor .photo {
+    margin: 120px;
+    border: none;
+    border-radius: 80px;
+}
+
+.pro-tutor .photo:last-child {
+    margin: 0;
+}
+
+.tutor h3,
+p {
+
+    margin-left: 140px;
+}
+
+
+/*.tutor h3,
+p {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: -80px;
+    text-align: left;
+    margin-left: 20px;
+}*/
+
+.quote {
+    background-color: #c271ff;
+    width: 1440px;
+    height: 392px;
+    top: 1093px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 100px;
+
+}
+
+.testimonial {
+    width: 943px;
+    height: 160px;
+    margin-top: 313px;
+    margin-left: 359px;
+    gap: 0px;
+    opacity: 0px;
+    align-items: center;
+
+}
+
+.popular {
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.popular h2 {
+    font-size: 26px;
+    color: #333;
+}
+
+.popular h2 .learn {
+    color: blueviolet;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    /* Center the containers horizontally */
+    gap: 20px;
+    /* Add consistent spacing between containers */
+    margin-top: 20px;
+    margin-left: 130px;
+    padding: 10px 0;
+    /* Add some padding for better spacing */
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 40px;
+    width: 250px;
+    /* Fixed width for each container */
+    flex: 0 0 auto;
+    /* Prevent containers from shrinking or growing */
+    padding: 15px;
+    text-align: left;
+    transition: transform 0.3s ease;
+    position: relative;
+    /* For positioning the play button */
+}
+
+.container:hover {
+    transform: translateY(-10px);
+}
+
+.play-video {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    /* Ensure the image is treated as a block element */
+}
+
+.play {
+    position: absolute;
+    /* Position the play button absolutely within the container */
+    top: 25%;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust to center the play button */
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1;
+    /* Ensure the play button is above the thumbnail */
+}
+
+.container h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+    align-items: left;
+}
+
+.container p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.author-block {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 10px 0;
+}
+
+.author-block img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-block h4 {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.rating {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 10px 0;
+}
+
+.rating img {
+    width: 60px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.rating p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0;
+}
